@@ -61,8 +61,10 @@ void isPrimePalindrome(int num) {
         }
     }
 }
+
 int main() {
-    // int num1 = 15, num2;
+    int num2 = 5;
+    // cout << num2;
     // int inputNumLimit;
     // // cout << "Input a number: ";
     // // cin >> inputNumLimit;
@@ -77,7 +79,7 @@ int main() {
     // // cout << bigger << endl;
     // inputNumLimit *= inputNumLimit % 10;
     // printPrimeNum(inputNumLimit);
-    isPrimePalindrome(50);
+    // isPrimePalindrome(50);
  
     return 0;
 }
