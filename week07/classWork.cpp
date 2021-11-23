@@ -42,14 +42,6 @@ int numberOfSymbols(char arr[]){
     int counter=0;
     for (int i=0; arr[i]!='\0'; i++)
     {
-        if (true) {
-                if (true) {
-                if (true) 
-                    {
-
-                    }
-            }
-        }
         counter++;
     }
     return counter;
