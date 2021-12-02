@@ -17,17 +17,11 @@ int main() {
     {
         cin>>size;
     }while(size<1||size>100);
-    
 
     char array[size];
     cin.ignore();
     cin.getline(array, size);
-    
 
-    
-    
-
-    
     // int arr[MAX_SIZE];
     // readArr(size, arr);
     // writeEven(size, arr);
@@ -96,7 +90,7 @@ bool isPalindrom(char arr[])
     for (int i = 0, j = size - 1; i < size / 2; ++i, --j) { 
         if (arr[i] != arr[j]) {
             return false;
-        }   
+        }
     }
     return true;
     // return 1;
