@@ -143,6 +143,13 @@ int main() {
     }
     findCoords(mat, 3, 3, i, j, 5);
 
+    cout << 1[arr] << endl;
+    cout << *(1 + arr) << endl;
+    cout << arr << endl;
+    cout << arr + 1 << endl;
+    cout << arr + 1 * sizeof(int*) << endl;
+
+
 
     
 
