@@ -86,11 +86,15 @@ int main()
     cin >> length;
     cin.ignore();
     char* arr = new char[length + 1];
-    cin.getline(arr, length + 1);
+    if(!(cin.getline(arr, length + 1))) {
+        cin.clear();
+    };
     char* arr1 = new char[length + 1];
-    cin.getline(arr1, length);
+    
+    cin.getline(arr1, length + 1);
     // strcpy(arr, arr1);
-    // printStr(arr1);
+    printStr(arr);
+    printStr(arr1);
     char* strCat = strcatNew(arr, arr1);
     // printStr(strCat);
     // strcat(arr, arr1);
