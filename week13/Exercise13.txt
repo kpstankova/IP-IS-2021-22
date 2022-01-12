@@ -1,0 +1,5 @@
+Backtracking:
+
+1. Hanoi towers (play: https://www.mathsisfun.com/games/towerofhanoi.html, explanation: https://en.wikipedia.org/wiki/Tower_of_Hanoi)
+2. 8 queen problem (explanation: https://en.wikipedia.org/wiki/Eight_queens_puzzle#:~:text=The%20eight%20queens%20puzzle%20is,row%2C%20column%2C%20or%20diagonal.)
+3. Sudoku (play: https://sudoku.com/, explanation: https://en.wikipedia.org/wiki/Sudoku)
